@@ -315,6 +315,8 @@ export const PROPERTIES: Property[] = [
     ],
     floorPlans: [
       { id: "fp-1a", title: "4 BHK Layout", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Standard 4 BHK with study and servant quarters", carpetArea: "3,200 sq. ft.", roomCount: "4+1" },
+      { id: "fp-1b", title: "5 BHK Penthouse Layout", type: "penthouse", imageUrl: "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800", notes: "Expansive 5 BHK penthouse with private terrace, home theatre, and double-height living room", carpetArea: "4,800 sq. ft.", roomCount: "5+2" },
+      { id: "fp-1c", title: "3 BHK Compact Layout", type: "alternate", imageUrl: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800", notes: "Efficient 3 BHK with open kitchen and sea-facing master suite", carpetArea: "2,100 sq. ft.", roomCount: "3+1" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "BKC / Bandra-Kurla Complex", distance: "25 min" },
