@@ -157,7 +157,7 @@ export default function PropertyDetailPage({
 
           <div className="flex items-center gap-3">
             <a
-              href={`https://wa.me/919820011234?text=I'm interested in ${property.buildingName}`}
+              href={`https://wa.me/919920240392?text=I'm interested in ${property.buildingName}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-xs font-sans tracking-widest uppercase px-4 py-2.5 transition-colors"
@@ -165,7 +165,7 @@ export default function PropertyDetailPage({
               <MessageCircle size={13} />
               WhatsApp
             </a>
-            <a href="tel:+919820011234">
+            <a href="tel:+919920240392">
               <GoldButton size="sm" variant="outline" className="gap-2">
                 <Phone size={12} />
                 Call
@@ -482,7 +482,7 @@ export default function PropertyDetailPage({
 
             {/* WhatsApp */}
             <a
-              href={`https://wa.me/919820011234?text=Hi, I'm interested in ${property.buildingName} (${property.id})`}
+              href={`https://wa.me/919920240392?text=Hi, I'm interested in ${property.buildingName} (${property.id})`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full bg-green-600 hover:bg-green-700 text-white text-xs font-sans tracking-widest uppercase py-3 transition-colors"

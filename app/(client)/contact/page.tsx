@@ -102,7 +102,7 @@ export default function ContactPage() {
               <h2 className="font-serif text-3xl font-light text-obsidian mb-6">Contact Information</h2>
               <ul className="space-y-5">
                 {[
-                  { icon: Phone, label: "Phone", value: "+91 98200 11234", href: "tel:+919820011234" },
+                  { icon: Phone, label: "Phone", value: "+91 99202 40392", href: "tel:+919920240392" },
                   { icon: Mail, label: "Email", value: "advisory@southmumbailuxury.in", href: "mailto:advisory@southmumbailuxury.in" },
                   { icon: MapPin, label: "Coverage", value: "Worli, Tardeo, Malabar Hill, Prabhadevi, Colaba, Cuffe Parade, Lower Parel", href: null },
                 ].map(({ icon: Icon, label, value, href }) => (
