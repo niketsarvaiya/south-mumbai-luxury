@@ -138,7 +138,7 @@ export default function AccessPage() {
         {/* Hint */}
         <p className="text-center text-[10px] font-sans text-warm-grey-600 mt-6">
           Don't have an access code?{" "}
-          <a href="tel:+919920240392" className="text-champagne hover:underline">
+          <a href="tel:+919987310760" className="text-champagne hover:underline">
             Contact your property advisor
           </a>
         </p>

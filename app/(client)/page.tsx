@@ -425,7 +425,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="flex items-center gap-4 shrink-0">
-            <a href="tel:+919920240392" className="flex items-center gap-2 bg-obsidian text-white text-xs font-sans tracking-widest uppercase px-6 py-3 hover:bg-navy transition-colors">
+            <a href="tel:+919987310760" className="flex items-center gap-2 bg-obsidian text-white text-xs font-sans tracking-widest uppercase px-6 py-3 hover:bg-navy transition-colors">
               <Phone size={14} />
               Call Now
             </a>

@@ -65,7 +65,7 @@ export default function Navbar() {
           {/* Right actions */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+919920240392"
+              href="tel:+919987310760"
               className="flex items-center gap-2 text-xs font-sans tracking-widest text-warm-grey-300 hover:text-champagne transition-colors"
             >
               <Phone size={13} />
@@ -102,7 +102,7 @@ export default function Navbar() {
             ))}
             <div className="pt-4 border-t border-warm-grey-800">
               <a
-                href="tel:+919920240392"
+                href="tel:+919987310760"
                 className="flex items-center gap-2 text-sm text-warm-grey-300 mb-4"
               >
                 <Phone size={14} />
