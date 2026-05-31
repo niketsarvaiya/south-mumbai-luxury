@@ -113,44 +113,44 @@ export default function HomePage() {
       <section className="bg-obsidian py-8 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-3 items-end">
-            {[
+            {([
               {
                 id: "location",
                 label: "Location",
-                options: ["", ...LOCATIONS],
-                labels: { "": "All Locations" },
+                options: ["", ...LOCATIONS] as string[],
+                labels: { "": "All Locations" } as Record<string, string>,
               },
               {
                 id: "budget",
                 label: "Budget",
-                options: ["", "under10", "10to20", "20to40", "40plus"],
-                labels: { "": "Any Budget", under10: "Under ₹10 Cr", "10to20": "₹10–20 Cr", "20to40": "₹20–40 Cr", "40plus": "₹40 Cr+" },
+                options: ["", "under10", "10to20", "20to40", "40plus"] as string[],
+                labels: { "": "Any Budget", under10: "Under ₹10 Cr", "10to20": "₹10–20 Cr", "20to40": "₹20–40 Cr", "40plus": "₹40 Cr+" } as Record<string, string>,
               },
               {
                 id: "config",
                 label: "Configuration",
-                options: ["", "2bhk", "3bhk", "4bhk", "duplex", "penthouse"],
-                labels: { "": "Any Config", "2bhk": "2 BHK", "3bhk": "3 BHK", "4bhk": "4 BHK", duplex: "Duplex", penthouse: "Penthouse" },
+                options: ["", "2bhk", "3bhk", "4bhk", "duplex", "penthouse"] as string[],
+                labels: { "": "Any Config", "2bhk": "2 BHK", "3bhk": "3 BHK", "4bhk": "4 BHK", duplex: "Duplex", penthouse: "Penthouse" } as Record<string, string>,
               },
               {
                 id: "area",
                 label: "Carpet Area",
-                options: ["", "under2000", "2000to4000", "4000plus"],
-                labels: { "": "Any Area", under2000: "Under 2,000 sq ft", "2000to4000": "2,000–4,000 sq ft", "4000plus": "4,000+ sq ft" },
+                options: ["", "under2000", "2000to4000", "4000plus"] as string[],
+                labels: { "": "Any Area", under2000: "Under 2,000 sq ft", "2000to4000": "2,000–4,000 sq ft", "4000plus": "4,000+ sq ft" } as Record<string, string>,
               },
               {
                 id: "status",
                 label: "Possession",
-                options: ["", "ready", "under_construction", "resale"],
-                labels: { "": "Any Status", ready: "Ready to Move", under_construction: "Under Construction", resale: "Resale" },
+                options: ["", "ready", "under_construction", "resale"] as string[],
+                labels: { "": "Any Status", ready: "Ready to Move", under_construction: "Under Construction", resale: "Resale" } as Record<string, string>,
               },
               {
                 id: "view",
                 label: "View Type",
-                options: ["", "sea", "city", "skyline", "garden"],
-                labels: { "": "Any View", sea: "Sea View", city: "City View", skyline: "Skyline View", garden: "Garden View" },
+                options: ["", "sea", "city", "skyline", "garden"] as string[],
+                labels: { "": "Any View", sea: "Sea View", city: "City View", skyline: "Skyline View", garden: "Garden View" } as Record<string, string>,
               },
-            ].map((filter) => (
+            ] as { id: string; label: string; options: string[]; labels: Record<string, string> }[]).map((filter) => (
               <div key={filter.id}>
                 <label className="block text-[9px] font-sans tracking-widest uppercase text-warm-grey-500 mb-1.5">
                   {filter.label}
