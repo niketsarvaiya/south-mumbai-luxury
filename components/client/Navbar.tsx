@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 import GoldButton from "@/components/ui/GoldButton";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
 import { clearClientSession } from "@/lib/auth";
 import { useRouter } from "next/navigation";
 
@@ -64,12 +65,13 @@ export default function Navbar() {
 
           {/* Right actions */}
           <div className="hidden lg:flex items-center gap-4">
+            <ThemeSwitcher />
             <a
               href="tel:+919987310760"
               className="flex items-center gap-2 text-xs font-sans tracking-widest text-warm-grey-300 hover:text-champagne transition-colors"
             >
               <Phone size={13} />
-              <span>+91 98200 11234</span>
+              <span>+91 99873 10760</span>
             </a>
             <GoldButton size="sm" onClick={handleExit} variant="outline">
               Exit
@@ -101,12 +103,16 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="pt-4 border-t border-warm-grey-800">
+              <div className="mb-4">
+                <p className="text-[10px] font-sans tracking-widest uppercase text-warm-grey-500 mb-2">Theme</p>
+                <ThemeSwitcher />
+              </div>
               <a
                 href="tel:+919987310760"
                 className="flex items-center gap-2 text-sm text-warm-grey-300 mb-4"
               >
                 <Phone size={14} />
-                +91 98200 11234
+                +91 99873 10760
               </a>
               <GoldButton size="sm" onClick={handleExit} variant="outline" className="w-full">
                 Exit Private Collection

@@ -112,3 +112,119 @@ h1, h2, h3, h4 {
 .property-card:hover .property-image {
   transform: scale(1.04);
 }
+
+/* ── Theme: Malabar (default — navy + champagne gold) ── */
+[data-theme="malabar"] {
+  --color-navy: #0F1C2E;
+  --color-navy-light: #1A2E48;
+  --color-navy-dark: #070F1A;
+  --color-champagne: #C9A96E;
+  --color-champagne-light: #E8D5B0;
+  --color-champagne-dark: #A07840;
+  --color-ivory: #F8F5F0;
+  --color-obsidian: #0A0A0A;
+}
+
+/* ── Theme: Bandra (Apple / platinum minimalism) ── */
+[data-theme="bandra"] {
+  --color-navy: #111111;
+  --color-navy-light: #1C1C1E;
+  --color-navy-dark: #000000;
+  --color-champagne: #C8C8C8;
+  --color-champagne-light: #E5E5E5;
+  --color-champagne-dark: #8E8E93;
+  --color-ivory: #F5F5F7;
+  --color-obsidian: #1C1C1E;
+  --color-warm-grey-50: #F5F5F7;
+  --color-warm-grey-100: #E8E8EC;
+  --color-warm-grey-200: #D1D1D6;
+  --color-warm-grey-300: #AEAEB2;
+  --color-warm-grey-400: #8E8E93;
+  --color-warm-grey-500: #636366;
+  --color-warm-grey-600: #48484A;
+  --color-warm-grey-700: #3A3A3C;
+  --color-warm-grey-800: #2C2C2E;
+  --color-warm-grey-900: #1C1C1E;
+}
+
+[data-theme="bandra"] body {
+  background-color: #F5F5F7;
+  color: #1C1C1E;
+}
+
+[data-theme="bandra"] h1,
+[data-theme="bandra"] h2,
+[data-theme="bandra"] h3,
+[data-theme="bandra"] h4 {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+[data-theme="bandra"] ::selection {
+  background-color: #C8C8C8;
+  color: #111111;
+}
+
+[data-theme="bandra"] ::-webkit-scrollbar-thumb {
+  background: #C8C8C8;
+}
+
+/* ── Theme: Worli (bold emerald — contemporary Indian luxury) ── */
+[data-theme="worli"] {
+  --color-navy: #030303;
+  --color-navy-light: #0D0D0D;
+  --color-navy-dark: #000000;
+  --color-champagne: #00C896;
+  --color-champagne-light: #4DDDB4;
+  --color-champagne-dark: #009970;
+  --color-ivory: #F0F4F2;
+  --color-obsidian: #030303;
+  --color-warm-grey-50: #F0F4F2;
+  --color-warm-grey-100: #E0EBE6;
+  --color-warm-grey-200: #C2D4CC;
+  --color-warm-grey-300: #94B3A8;
+  --color-warm-grey-400: #6A9086;
+  --color-warm-grey-500: #4E7068;
+  --color-warm-grey-600: #3A5550;
+  --color-warm-grey-700: #2B3F3C;
+  --color-warm-grey-800: #1A2825;
+  --color-warm-grey-900: #0D1614;
+}
+
+[data-theme="worli"] body {
+  background-color: #F0F4F2;
+  color: #030303;
+}
+
+[data-theme="worli"] h1,
+[data-theme="worli"] h2,
+[data-theme="worli"] h3,
+[data-theme="worli"] h4 {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+[data-theme="worli"] ::selection {
+  background-color: #00C896;
+  color: #030303;
+}
+
+[data-theme="worli"] ::-webkit-scrollbar-thumb {
+  background: #00C896;
+}
+
+[data-theme="worli"] .gold-shimmer {
+  background: linear-gradient(90deg, #00C896 0%, #4DDDB4 50%, #00C896 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+[data-theme="worli"] .luxury-divider::before,
+[data-theme="worli"] .luxury-divider::after {
+  background: linear-gradient(to right, transparent, #00C896, transparent);
+}
