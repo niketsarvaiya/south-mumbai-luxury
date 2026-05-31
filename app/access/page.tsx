@@ -90,48 +90,6 @@ export default function AccessPage() {
         <form onSubmit={handleSubmit} className="space-y-4 animate-slide-up animate-delay-200">
           <div>
             <label className="block text-[10px] font-sans tracking-widest uppercase text-warm-grey-400 mb-1.5">
-              Full Name *
-            </label>
-            <input
-              type="text"
-              required
-              value={form.name}
-              onChange={(e) => setForm({ ...form, name: e.target.value })}
-              placeholder="Your full name"
-              className="w-full bg-navy-light border border-warm-grey-700 text-white placeholder-warm-grey-600 px-4 py-3 text-sm font-sans focus:outline-none focus:border-champagne transition-colors"
-            />
-          </div>
-
-          <div>
-            <label className="block text-[10px] font-sans tracking-widest uppercase text-warm-grey-400 mb-1.5">
-              Phone Number *
-            </label>
-            <input
-              type="tel"
-              required
-              value={form.phone}
-              onChange={(e) => setForm({ ...form, phone: e.target.value })}
-              placeholder="+91 XXXXX XXXXX"
-              className="w-full bg-navy-light border border-warm-grey-700 text-white placeholder-warm-grey-600 px-4 py-3 text-sm font-sans focus:outline-none focus:border-champagne transition-colors"
-            />
-          </div>
-
-          <div>
-            <label className="block text-[10px] font-sans tracking-widest uppercase text-warm-grey-400 mb-1.5">
-              Email Address *
-            </label>
-            <input
-              type="email"
-              required
-              value={form.email}
-              onChange={(e) => setForm({ ...form, email: e.target.value })}
-              placeholder="your@email.com"
-              className="w-full bg-navy-light border border-warm-grey-700 text-white placeholder-warm-grey-600 px-4 py-3 text-sm font-sans focus:outline-none focus:border-champagne transition-colors"
-            />
-          </div>
-
-          <div>
-            <label className="block text-[10px] font-sans tracking-widest uppercase text-warm-grey-400 mb-1.5">
               Access Code *
             </label>
             <div className="relative">
