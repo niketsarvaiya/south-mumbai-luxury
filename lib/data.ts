@@ -308,10 +308,10 @@ export const PROPERTIES: Property[] = [
       "Business Lounge", "Visitor Parking", "Banquet Area",
     ],
     images: [
-      { id: "img-1a", url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200", caption: "Sea-facing residence exterior", type: "exterior", isCover: true },
-      { id: "img-1b", url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200", caption: "Living area with panoramic views", type: "interior", isCover: false },
-      { id: "img-1c", url: "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=1200", caption: "Arabian Sea view", type: "view", isCover: false },
-      { id: "img-1d", url: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200", caption: "Pool and amenities deck", type: "amenity", isCover: false },
+      { id: "img-1a", url: "https://www.lodhagroup.com/sites/default/files/projects/banner/Desktop_Malabar_1903x800.jpg", caption: "Lodha Malabar — Sea-Facing Residence Exterior", type: "exterior", isCover: true },
+      { id: "img-1b", url: "https://www.lodhagroup.com/sites/default/files/2026-04/Mobile_USP-Malabar-1_390x347-2026-04.jpg", caption: "Exclusive Amenity Offerings", type: "amenity", isCover: false },
+      { id: "img-1c", url: "https://www.lodhagroup.com/sites/default/files/2026-04/Mobile_USP-Malabar-2_390x347-2026-04.jpg", caption: "Private Lift Lobby", type: "interior", isCover: false },
+      { id: "img-1d", url: "https://www.lodhagroup.com/sites/default/files/2026-03/Mobile_USP-Malabar-3_390x347.jpg", caption: "Arabian Sea View", type: "view", isCover: false },
     ],
     floorPlans: [
       { id: "fp-1a", title: "4 BHK Layout", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Standard 4 BHK with study and servant quarters", carpetArea: "3,200 sq. ft.", roomCount: "4+1" },
@@ -385,9 +385,9 @@ export const PROPERTIES: Property[] = [
       "Kids Play Area", "Visitor Parking", "Business Lounge", "Lounge",
     ],
     images: [
-      { id: "img-2a", url: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200", caption: "Worli skyline view", type: "exterior", isCover: true },
-      { id: "img-2b", url: "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200", caption: "Contemporary living space", type: "interior", isCover: false },
-      { id: "img-2c", url: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200", caption: "Modern kitchen", type: "interior", isCover: false },
+      { id: "img-2a", url: "https://rahejaimperia1.com/images/lpbgd07.jpg", caption: "Raheja Imperia — Tower Exterior", type: "exterior", isCover: true },
+      { id: "img-2b", url: "https://rahejaimperia1.com/images/lpbgd02.jpg", caption: "Worli Skyline & Sea Views", type: "view", isCover: false },
+      { id: "img-2c", url: "https://rahejaimperia1.com/images/lpbgd05.jpg", caption: "Infinity Pool & Amenity Deck", type: "amenity", isCover: false },
     ],
     floorPlans: [
       { id: "fp-2a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "1,700 sq ft 3 BHK", carpetArea: "1,700 sq. ft.", roomCount: "3" },
@@ -461,7 +461,7 @@ export const PROPERTIES: Property[] = [
       "Lounge", "Indoor Games", "Outdoor Garden",
     ],
     images: [
-      { id: "img-3a", url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200", caption: "Three Sixty West exterior", type: "exterior", isCover: true },
+      { id: "img-3a", url: "https://upload.wikimedia.org/wikipedia/commons/3/39/Oberoi_360W.jpg", caption: "Oberoi Three Sixty West — Worli Seaface", type: "exterior", isCover: true },
       { id: "img-3b", url: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200", caption: "Grand living area", type: "interior", isCover: false },
       { id: "img-3c", url: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200", caption: "Infinity pool", type: "amenity", isCover: false },
     ],
@@ -536,7 +536,7 @@ export const PROPERTIES: Property[] = [
       "Business Lounge", "Visitor Parking", "Banquet Area",
     ],
     images: [
-      { id: "img-4a", url: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200", caption: "The Imperial towers, Tardeo", type: "exterior", isCover: true },
+      { id: "img-4a", url: "https://upload.wikimedia.org/wikipedia/commons/2/27/The_Imperial_Towers_SP.jpg", caption: "The Imperial Twin Towers, Tardeo", type: "exterior", isCover: true },
       { id: "img-4b", url: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200", caption: "Panoramic city views", type: "view", isCover: false },
       { id: "img-4c", url: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200", caption: "Modern kitchen", type: "interior", isCover: false },
     ],
@@ -612,9 +612,9 @@ export const PROPERTIES: Property[] = [
       "Library", "Lounge", "Outdoor Garden",
     ],
     images: [
-      { id: "img-5a", url: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200", caption: "Lodha Sea Face exterior", type: "exterior", isCover: true },
-      { id: "img-5b", url: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=1200", caption: "Sea-facing living room", type: "interior", isCover: false },
-      { id: "img-5c", url: "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?w=1200", caption: "Infinity pool", type: "amenity", isCover: false },
+      { id: "img-5a", url: "https://www.lodhagroup.com/sites/default/files/2026-05/Lodha-Sea-Face_Hero1_Mobile.jpg", caption: "Lodha Sea Face — Worli Seaface", type: "exterior", isCover: true },
+      { id: "img-5b", url: "https://www.lodhagroup.com/sites/default/files/2026-05/Lodha-Sea-Face_Primary_Mobile.jpg", caption: "Sea-Facing Facade", type: "exterior", isCover: false },
+      { id: "img-5c", url: "https://www.lodhagroup.com/sites/default/files/2026-05/Lodha-Sea-Face_Penthouse_Secondary_Mobile_0.jpg", caption: "Penthouse Level Living", type: "interior", isCover: false },
     ],
     floorPlans: [
       { id: "fp-5a", title: "Signature 4 BHK", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "4,500 sq ft with double-height lobby", carpetArea: "4,500 sq. ft.", roomCount: "4+2" },
@@ -684,8 +684,8 @@ export const PROPERTIES: Property[] = [
       "Kids Play Area", "Outdoor Garden", "Indoor Games", "Visitor Parking",
     ],
     images: [
-      { id: "img-6a", url: "https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db?w=1200", caption: "Kalpataru Avana exterior", type: "exterior", isCover: true },
-      { id: "img-6b", url: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200", caption: "Living room", type: "interior", isCover: false },
+      { id: "img-6a", url: "https://d2j4tkbto6uvqv.cloudfront.net/kalpataru/5f99366366670.jpg", caption: "Kalpataru Avana — Parel", type: "exterior", isCover: true },
+      { id: "img-6b", url: "https://d2j4tkbto6uvqv.cloudfront.net/kalpataru/5faa8f2662048.jpg", caption: "Amenity & Landscaping", type: "amenity", isCover: false },
     ],
     floorPlans: [
       { id: "fp-6a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "1,800 sq ft 3 BHK", carpetArea: "1,800 sq. ft.", roomCount: "3+1" },
@@ -757,8 +757,9 @@ export const PROPERTIES: Property[] = [
       "Business Lounge", "Kids Play Area",
     ],
     images: [
-      { id: "img-7a", url: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200", caption: "Rustomjee Crown", type: "exterior", isCover: true },
-      { id: "img-7b", url: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1200", caption: "Living room", type: "interior", isCover: false },
+      { id: "img-7a", url: "https://d1c8w60cxx92ls.cloudfront.net/publicupload/image_resize_desktop_2_b115ee3e1f.webp", caption: "Rustomjee Crown — Prabhadevi", type: "exterior", isCover: true },
+      { id: "img-7b", url: "https://d1c8w60cxx92ls.cloudfront.net/publicupload/1771241127127-nptkye0vq8.webp", caption: "Lifestyle Amenities", type: "amenity", isCover: false },
+      { id: "img-7c", url: "https://d1c8w60cxx92ls.cloudfront.net/publicupload/Crown_Phase_II_47e540d74d.jpg", caption: "Crown Phase II Tower", type: "exterior", isCover: false },
     ],
     floorPlans: [
       { id: "fp-7a", title: "4 BHK Residence", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "2,300 sq ft 4 BHK", carpetArea: "2,300 sq. ft.", roomCount: "4+1" },
@@ -829,8 +830,9 @@ export const PROPERTIES: Property[] = [
       "Business Lounge", "Banquet Area", "Library", "Lounge",
     ],
     images: [
-      { id: "img-8a", url: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200", caption: "Palais Royale tower", type: "exterior", isCover: true },
-      { id: "img-8b", url: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1200", caption: "Duplex living space", type: "interior", isCover: false },
+      { id: "img-8a", url: "https://www.palaisroyaleworli.com/wp-content/uploads/2025/03/1_5_b8c6ca02eb_enhanced.png", caption: "Palais Royale — Worli Tower", type: "exterior", isCover: true },
+      { id: "img-8b", url: "https://www.palaisroyaleworli.com/wp-content/uploads/2025/03/05_6abd034938_enhanced.png", caption: "Tower Elevation", type: "exterior", isCover: false },
+      { id: "img-8c", url: "https://www.palaisroyaleworli.com/wp-content/uploads/2025/03/06_8feba329e5.jpg", caption: "Amenity Zone", type: "amenity", isCover: false },
     ],
     floorPlans: [
       { id: "fp-8a", title: "Duplex — Lower Floor", type: "duplex", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Entry level — living, dining, kitchen", carpetArea: "2,000 sq. ft.", roomCount: "2 beds" },
@@ -903,8 +905,9 @@ export const PROPERTIES: Property[] = [
       "Lounge", "Outdoor Garden",
     ],
     images: [
-      { id: "img-9a", url: "https://images.unsplash.com/photo-1614197043100-be4e83e498e0?w=1200", caption: "World One tower exterior", type: "exterior", isCover: true },
-      { id: "img-9b", url: "https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=1200", caption: "Penthouse living space", type: "interior", isCover: false },
+      { id: "img-9a", url: "https://www.lodhagroup.com/sites/default/files/projects/banner/Spotlight_1903X800_0.webp", caption: "Lodha World Towers — Lower Parel", type: "exterior", isCover: true },
+      { id: "img-9b", url: "https://www.lodhagroup.com/sites/default/files/2024-04/USP_1_390X347.webp", caption: "Penthouse Interior", type: "interior", isCover: false },
+      { id: "img-9c", url: "https://www.lodhagroup.com/sites/default/files/projects/gallery/Amenities-1_374X374_0_0.webp", caption: "World-Class Amenities", type: "amenity", isCover: false },
     ],
     floorPlans: [
       { id: "fp-9a", title: "Sky Penthouse", type: "penthouse", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "5,800 sq ft penthouse on 65th floor", carpetArea: "5,800 sq. ft.", roomCount: "4+2+study" },
@@ -974,7 +977,7 @@ export const PROPERTIES: Property[] = [
       "Visitor Parking", "Clubhouse",
     ],
     images: [
-      { id: "img-10a", url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200", caption: "Maker Tower, Cuffe Parade", type: "exterior", isCover: true },
+      { id: "img-10a", url: "https://chhabriahousing.in/wp-content/uploads/2025/10/Building.jpg", caption: "Maker Tower — Cuffe Parade", type: "exterior", isCover: true },
       { id: "img-10b", url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200", caption: "Living room with sea view", type: "interior", isCover: false },
     ],
     floorPlans: [
