@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ivory: #F8F5F0;
+  --color-champagne: #C9A96E;
+  --color-champagne-light: #E8D5B0;
+  --color-champagne-dark: #A07840;
+  --color-obsidian: #0A0A0A;
+  --color-navy: #0F1C2E;
+  --color-navy-light: #1A2E48;
+  --color-navy-dark: #070F1A;
+  --color-warm-grey-50: #F9F7F5;
+  --color-warm-grey-100: #F0EDE8;
+  --color-warm-grey-200: #E0DBD3;
+  --color-warm-grey-300: #C8C1B6;
+  --color-warm-grey-400: #A89E92;
+  --color-warm-grey-500: #8C8073;
+  --color-warm-grey-600: #726558;
+  --color-warm-grey-700: #5C5148;
+  --color-warm-grey-800: #3D3530;
+  --color-warm-grey-900: #211D19;
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8F5F0;
+  color: #0A0A0A;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+::selection {
+  background-color: #C9A96E;
+  color: #0A0A0A;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F0EDE8;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A96E;
+  border-radius: 3px;
+}
+
+.luxury-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.luxury-divider::before,
+.luxury-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #C9A96E, transparent);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  from { background-position: -200% 0; }
+  to { background-position: 200% 0; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.7s ease-out both;
+}
+.animate-slide-up {
+  animation: slideUp 0.7s ease-out both;
+}
+.animate-delay-100 { animation-delay: 0.1s; }
+.animate-delay-200 { animation-delay: 0.2s; }
+.animate-delay-300 { animation-delay: 0.3s; }
+.animate-delay-400 { animation-delay: 0.4s; }
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #C9A96E 0%, #E8D5B0 50%, #C9A96E 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(201,169,110,0.2);
+}
+
+.property-card:hover .property-image {
+  transform: scale(1.04);
+}
