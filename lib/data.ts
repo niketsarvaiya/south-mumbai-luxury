@@ -390,8 +390,8 @@ export const PROPERTIES: Property[] = [
       { id: "img-2c", url: "https://rahejaimperia1.com/images/lpbgd05.jpg", caption: "Infinity Pool & Amenity Deck", type: "amenity", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-2a", title: "3 BHK Standard", type: "primary", imageUrl: "https://rahejaimperia1.com/floorplan/Typical%20floor%20Plan%20A.jpg", notes: "1,700 sq ft 3 BHK", carpetArea: "1,700 sq. ft.", roomCount: "3" },
-      { id: "fp-2b", title: "3 BHK Large", type: "alternate", imageUrl: "https://rahejaimperia1.com/floorplan/Typical%20floor%20Plan%20B.jpg", notes: "3,000 sq ft premium 3 BHK", carpetArea: "3,000 sq. ft.", roomCount: "3+1" },
+      { id: "fp-2a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "1,700 sq ft 3 BHK", carpetArea: "1,700 sq. ft.", roomCount: "3" },
+      { id: "fp-2b", title: "3 BHK Large", type: "alternate", imageUrl: "https://images.unsplash.com/photo-1574958269340-fa927503f3dd?w=800", notes: "3,000 sq ft premium 3 BHK", carpetArea: "3,000 sq. ft.", roomCount: "3+1" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "Lower Parel", distance: "10 min" },
