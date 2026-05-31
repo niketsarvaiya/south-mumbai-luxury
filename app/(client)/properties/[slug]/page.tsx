@@ -284,12 +284,12 @@ export default function PropertyDetailPage({
 
                 {property.floorPlans[activeLayout] && (
                   <div className="bg-white border border-warm-grey-100 overflow-hidden">
-                    <div className="relative aspect-[4/3] md:aspect-[16/9]">
+                    <div className="relative aspect-[4/3] md:aspect-[16/9] bg-warm-grey-50">
                       <Image
                         src={property.floorPlans[activeLayout].imageUrl}
                         alt={property.floorPlans[activeLayout].title}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                     <div className="p-5 flex items-center justify-between">
