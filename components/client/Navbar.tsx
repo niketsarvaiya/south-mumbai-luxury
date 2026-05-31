@@ -43,10 +43,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex flex-col leading-none group">
             <span className="font-serif text-xl font-light text-champagne tracking-[0.15em] uppercase">
-              South Mumbai
+              Value Properties
             </span>
             <span className="font-serif text-xs font-light text-warm-grey-300 tracking-[0.3em] uppercase mt-0.5">
-              Luxury Collection
+              Curated by Sreeja
             </span>
           </Link>
 

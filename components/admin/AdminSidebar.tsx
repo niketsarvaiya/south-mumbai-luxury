@@ -31,7 +31,7 @@ export default function AdminSidebar() {
       {/* Logo */}
       <div className="px-5 py-6 border-b border-warm-grey-800">
         <div className="font-serif text-sm font-light text-champagne tracking-[0.15em] uppercase">
-          South Mumbai
+          Value Properties
         </div>
         <div className="text-[10px] font-sans text-warm-grey-600 tracking-[0.2em] uppercase mt-0.5">
           Admin Portal

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Admin — South Mumbai Luxury Collection",
+  title: "Admin — Value Properties by Sreeja",
   robots: "noindex, nofollow",
 };
 

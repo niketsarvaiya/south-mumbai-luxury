@@ -70,9 +70,9 @@ export default function AccessPage() {
             <Lock size={18} className="text-champagne" />
           </div>
           <h1 className="font-serif text-3xl md:text-4xl font-light text-white tracking-wide mb-3">
-            Private South Mumbai
+            Value Properties
             <br />
-            <span className="text-champagne">Luxury Property Collection</span>
+            <span className="text-champagne">Curated by Sreeja</span>
           </h1>
           <p className="text-warm-grey-400 font-sans text-sm leading-relaxed max-w-xs mx-auto">
             Access curated residences across Mumbai's most prestigious addresses.

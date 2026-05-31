@@ -48,7 +48,7 @@ export default function AdminLoginPage() {
             <Shield size={20} className="text-champagne" />
           </div>
           <h1 className="font-serif text-2xl font-light text-white mb-1">Admin Portal</h1>
-          <p className="text-xs font-sans text-warm-grey-500">South Mumbai Luxury Collection</p>
+          <p className="text-xs font-sans text-warm-grey-500">Value Properties — Curated by Sreeja</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

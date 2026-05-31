@@ -41,7 +41,7 @@ export default function DashboardPage() {
             <div className="mb-8">
               <h1 className="font-serif text-3xl font-light text-warm-grey-900">Dashboard</h1>
               <p className="text-sm font-sans text-warm-grey-500 mt-1">
-                South Mumbai Luxury Collection — Overview
+                Value Properties — Curated by Sreeja · Overview
               </p>
             </div>
 

@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Private South Mumbai Luxury Property Collection",
+  title: "Value Properties — Curated by Sreeja",
   description: "Curated high-end residences across Mumbai's most prestigious addresses.",
   robots: "noindex, nofollow",
 };

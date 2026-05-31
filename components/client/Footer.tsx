@@ -10,10 +10,10 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-4">
               <div className="font-serif text-xl font-light text-champagne tracking-[0.15em] uppercase">
-                South Mumbai
+                Value Properties
               </div>
               <div className="font-serif text-xs font-light text-warm-grey-400 tracking-[0.3em] uppercase mt-0.5">
-                Luxury Collection
+                Curated by Sreeja
               </div>
             </div>
             <p className="text-xs font-sans leading-relaxed text-warm-grey-500 mt-4">
@@ -63,7 +63,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-xs text-warm-grey-400">
                 <Phone size={12} className="mt-0.5 shrink-0 text-champagne" />
-                <span>+91 98200 11234</span>
+                <span>+91 99873 10760</span>
               </li>
               <li className="flex items-start gap-2 text-xs text-warm-grey-400">
                 <Mail size={12} className="mt-0.5 shrink-0 text-champagne" />
@@ -80,7 +80,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-warm-grey-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-xs text-warm-grey-600 font-sans">
-            © 2026 South Mumbai Luxury Collection. Private & Confidential.
+            © 2026 Value Properties — Curated by Sreeja. Private & Confidential.
           </p>
           <p className="text-xs text-warm-grey-700 font-sans">
             This portal is invitation-only. Unauthorised access is prohibited.
