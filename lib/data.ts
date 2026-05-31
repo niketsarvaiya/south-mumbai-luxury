@@ -314,9 +314,9 @@ export const PROPERTIES: Property[] = [
       { id: "img-1d", url: "https://www.lodhagroup.com/sites/default/files/2026-03/Mobile_USP-Malabar-3_390x347.jpg", caption: "Arabian Sea View", type: "view", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-1a", title: "4 BHK Layout", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Standard 4 BHK with study and servant quarters", carpetArea: "3,200 sq. ft.", roomCount: "4+1" },
-      { id: "fp-1b", title: "5 BHK Penthouse Layout", type: "penthouse", imageUrl: "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800", notes: "Expansive 5 BHK penthouse with private terrace, home theatre, and double-height living room", carpetArea: "4,800 sq. ft.", roomCount: "5+2" },
-      { id: "fp-1c", title: "3 BHK Compact Layout", type: "alternate", imageUrl: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800", notes: "Efficient 3 BHK with open kitchen and sea-facing master suite", carpetArea: "2,100 sq. ft.", roomCount: "3+1" },
+      { id: "fp-1a", title: "4 BHK Layout", type: "primary", imageUrl: "https://images.unsplash.com/photo-1574958269340-fa927503f3dd?w=800", notes: "Standard 4 BHK with study and servant quarters", carpetArea: "3,200 sq. ft.", roomCount: "4+1" },
+      { id: "fp-1b", title: "5 BHK Penthouse Layout", type: "penthouse", imageUrl: "https://images.unsplash.com/photo-1542621334-a254cf47733d?w=800", notes: "Expansive 5 BHK penthouse with private terrace, home theatre, and double-height living room", carpetArea: "4,800 sq. ft.", roomCount: "5+2" },
+      { id: "fp-1c", title: "3 BHK Compact Layout", type: "alternate", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Efficient 3 BHK with open kitchen and sea-facing master suite", carpetArea: "2,100 sq. ft.", roomCount: "3+1" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "BKC / Bandra-Kurla Complex", distance: "25 min" },
@@ -390,8 +390,8 @@ export const PROPERTIES: Property[] = [
       { id: "img-2c", url: "https://rahejaimperia1.com/images/lpbgd05.jpg", caption: "Infinity Pool & Amenity Deck", type: "amenity", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-2a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "1,700 sq ft 3 BHK", carpetArea: "1,700 sq. ft.", roomCount: "3" },
-      { id: "fp-2b", title: "3 BHK Large", type: "alternate", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "3,000 sq ft premium 3 BHK", carpetArea: "3,000 sq. ft.", roomCount: "3+1" },
+      { id: "fp-2a", title: "3 BHK Standard", type: "primary", imageUrl: "https://rahejaimperia1.com/floorplan/Typical%20floor%20Plan%20A.jpg", notes: "1,700 sq ft 3 BHK", carpetArea: "1,700 sq. ft.", roomCount: "3" },
+      { id: "fp-2b", title: "3 BHK Large", type: "alternate", imageUrl: "https://rahejaimperia1.com/floorplan/Typical%20floor%20Plan%20B.jpg", notes: "3,000 sq ft premium 3 BHK", carpetArea: "3,000 sq. ft.", roomCount: "3+1" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "Lower Parel", distance: "10 min" },
@@ -466,8 +466,8 @@ export const PROPERTIES: Property[] = [
       { id: "img-3c", url: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200", caption: "Infinity pool", type: "amenity", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-3a", title: "4 BHK Residence", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Ultra-luxury 4 BHK", carpetArea: "4,000 sq. ft.", roomCount: "4+2" },
-      { id: "fp-3b", title: "Duplex Layout", type: "duplex", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Upper + lower duplex configuration", carpetArea: "5,500 sq. ft.", roomCount: "5+2" },
+      { id: "fp-3a", title: "4 BHK Residence", type: "primary", imageUrl: "https://ik.imagekit.io/sjnshacs8/floorplans/01710394109.webp", notes: "Ultra-luxury 4 BHK — 3,272 sq ft", carpetArea: "4,000 sq. ft.", roomCount: "4+2" },
+      { id: "fp-3b", title: "Duplex Layout", type: "duplex", imageUrl: "https://ik.imagekit.io/sjnshacs8/floorplans/11710394109.webp", notes: "Upper + lower duplex configuration — 3,778 sq ft", carpetArea: "5,500 sq. ft.", roomCount: "5+2" },
     ],
     nearbyLandmarks: [
       { category: "Hotel", name: "The St. Regis Mumbai", distance: "3 min" },
@@ -542,7 +542,7 @@ export const PROPERTIES: Property[] = [
     ],
     floorPlans: [
       { id: "fp-4a", title: "3 BHK Mid-Rise", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "2,500 sq ft 3 BHK", carpetArea: "2,500 sq. ft.", roomCount: "3+1" },
-      { id: "fp-4b", title: "4 BHK High-Floor", type: "premium", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "4,500 sq ft 4 BHK penthouse level", carpetArea: "4,500 sq. ft.", roomCount: "4+2" },
+      { id: "fp-4b", title: "4 BHK High-Floor", type: "premium", imageUrl: "https://images.unsplash.com/photo-1574958269340-fa927503f3dd?w=800", notes: "4,500 sq ft 4 BHK penthouse level", carpetArea: "4,500 sq. ft.", roomCount: "4+2" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "Lower Parel", distance: "15 min" },
@@ -617,7 +617,7 @@ export const PROPERTIES: Property[] = [
       { id: "img-5c", url: "https://www.lodhagroup.com/sites/default/files/2026-05/Lodha-Sea-Face_Penthouse_Secondary_Mobile_0.jpg", caption: "Penthouse Level Living", type: "interior", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-5a", title: "Signature 4 BHK", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "4,500 sq ft with double-height lobby", carpetArea: "4,500 sq. ft.", roomCount: "4+2" },
+      { id: "fp-5a", title: "Signature 4 BHK", type: "primary", imageUrl: "https://images.unsplash.com/photo-1542621334-a254cf47733d?w=800", notes: "4,500 sq ft with double-height lobby", carpetArea: "4,500 sq. ft.", roomCount: "4+2" },
     ],
     nearbyLandmarks: [
       { category: "Hotel", name: "Four Seasons Hotel Mumbai", distance: "5 min" },
@@ -688,7 +688,7 @@ export const PROPERTIES: Property[] = [
       { id: "img-6b", url: "https://d2j4tkbto6uvqv.cloudfront.net/kalpataru/5faa8f2662048.jpg", caption: "Amenity & Landscaping", type: "amenity", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-6a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "1,800 sq ft 3 BHK", carpetArea: "1,800 sq. ft.", roomCount: "3+1" },
+      { id: "fp-6a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1574958269340-fa927503f3dd?w=800", notes: "1,800 sq ft 3 BHK", carpetArea: "1,800 sq. ft.", roomCount: "3+1" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "Lower Parel Business District", distance: "5 min" },
@@ -835,8 +835,8 @@ export const PROPERTIES: Property[] = [
       { id: "img-8c", url: "https://www.palaisroyaleworli.com/wp-content/uploads/2025/03/06_8feba329e5.jpg", caption: "Amenity Zone", type: "amenity", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-8a", title: "Duplex — Lower Floor", type: "duplex", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Entry level — living, dining, kitchen", carpetArea: "2,000 sq. ft.", roomCount: "2 beds" },
-      { id: "fp-8b", title: "Duplex — Upper Floor", type: "duplex", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Upper level — master + 2 beds + family lounge", carpetArea: "2,100 sq. ft.", roomCount: "2 beds + lounge" },
+      { id: "fp-8a", title: "Duplex — Lower Floor", type: "duplex", imageUrl: "https://images.unsplash.com/photo-1574958269340-fa927503f3dd?w=800", notes: "Entry level — living, dining, kitchen", carpetArea: "2,000 sq. ft.", roomCount: "2 beds" },
+      { id: "fp-8b", title: "Duplex — Upper Floor", type: "duplex", imageUrl: "https://images.unsplash.com/photo-1542621334-a254cf47733d?w=800", notes: "Upper level — master + 2 beds + family lounge", carpetArea: "2,100 sq. ft.", roomCount: "2 beds + lounge" },
     ],
     nearbyLandmarks: [
       { category: "Infrastructure", name: "Sea Link", distance: "8 min" },
@@ -910,7 +910,7 @@ export const PROPERTIES: Property[] = [
       { id: "img-9c", url: "https://www.lodhagroup.com/sites/default/files/projects/gallery/Amenities-1_374X374_0_0.webp", caption: "World-Class Amenities", type: "amenity", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-9a", title: "Sky Penthouse", type: "penthouse", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "5,800 sq ft penthouse on 65th floor", carpetArea: "5,800 sq. ft.", roomCount: "4+2+study" },
+      { id: "fp-9a", title: "Sky Penthouse", type: "penthouse", imageUrl: "https://ik.imagekit.io/sjnshacs8/floorplans/01773661488.webp", notes: "5,800 sq ft penthouse on 65th floor", carpetArea: "5,800 sq. ft.", roomCount: "4+2+study" },
     ],
     nearbyLandmarks: [
       { category: "Business", name: "Lower Parel / BKC via Expressway", distance: "10 min" },
@@ -981,7 +981,7 @@ export const PROPERTIES: Property[] = [
       { id: "img-10b", url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200", caption: "Living room with sea view", type: "interior", isCover: false },
     ],
     floorPlans: [
-      { id: "fp-10a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800", notes: "Classic 3 BHK layout", carpetArea: "2,400 sq. ft.", roomCount: "3+1" },
+      { id: "fp-10a", title: "3 BHK Standard", type: "primary", imageUrl: "https://images.unsplash.com/photo-1574958269340-fa927503f3dd?w=800", notes: "Classic 3 BHK layout", carpetArea: "2,400 sq. ft.", roomCount: "3+1" },
     ],
     nearbyLandmarks: [
       { category: "Heritage", name: "Taj Mahal Palace Hotel", distance: "10 min" },

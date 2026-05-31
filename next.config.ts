@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "d1c8w60cxx92ls.cloudfront.net" },
       { protocol: "https", hostname: "www.palaisroyaleworli.com" },
       { protocol: "https", hostname: "chhabriahousing.in" },
+      { protocol: "https", hostname: "ik.imagekit.io" },
     ],
   },
 };
